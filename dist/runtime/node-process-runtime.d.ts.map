@@ -1,0 +1,1 @@
+{"version":3,"file":"node-process-runtime.d.ts","sourceRoot":"","sources":["../../src/runtime/node-process-runtime.ts"],"names":[],"mappings":"AAEA,OAAO,EAEL,KAAK,cAAc,EACnB,KAAK,oBAAoB,EACzB,KAAK,mBAAmB,EACzB,MAAM,sBAAsB,CAAC;AA2B9B,qBAAa,kBAAkB;IACvB,OAAO,CACX,IAAI,EAAE,MAAM,EACZ,QAAQ,EAAE,cAAc,EACxB,OAAO,EAAE,oBAAoB,GAC5B,OAAO,CAAC,mBAAmB,CAAC;CAkKhC"}

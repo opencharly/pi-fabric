@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/core/pi-tools.ts"],
+  "sourcesContent": ["export const PI_CORE_TOOL_NAMES = [\n  \"read\",\n  \"bash\",\n  \"edit\",\n  \"write\",\n  \"grep\",\n  \"find\",\n  \"ls\",\n] as const;\n\nexport type PiCoreToolName = (typeof PI_CORE_TOOL_NAMES)[number];\n\nexport const PI_CORE_TOOL_NAME_SET: ReadonlySet<string> = new Set(PI_CORE_TOOL_NAMES);\n"],
+  "mappings": ";AAAO,IAAM,qBAAqB;AAAA,EAChC;AAAA,EACA;AAAA,EACA;AAAA,EACA;AAAA,EACA;AAAA,EACA;AAAA,EACA;AACF;AAIO,IAAM,wBAA6C,IAAI,IAAI,kBAAkB;",
+  "names": []
+}

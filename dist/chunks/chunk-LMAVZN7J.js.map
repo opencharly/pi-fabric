@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/core/effect-conflict.ts"],
+  "sourcesContent": ["export type FabricEffectConflictReason = \"shared_resource\" | \"unknown_resource\";\n\nconst reasonText = (reason: FabricEffectConflictReason): string =>\n  reason === \"unknown_resource\"\n    ? \"unknown resource footprint; declare resources and ordering\"\n    : \"shared noncommutative resource\";\n\nexport const formatFabricEffectConflict = (\n  target: string,\n  resources: readonly string[],\n  reason: FabricEffectConflictReason,\n): string => `${target} [${resources.join(\", \")}] (${reasonText(reason)})`;\n"],
+  "mappings": ";AAEA,IAAM,aAAa,CAAC,WAClB,WAAW,qBACP,+DACA;AAEC,IAAM,6BAA6B,CACxC,QACA,WACA,WACW,GAAG,MAAM,KAAK,UAAU,KAAK,IAAI,CAAC,MAAM,WAAW,MAAM,CAAC;",
+  "names": []
+}
